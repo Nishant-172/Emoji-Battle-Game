@@ -1,0 +1,67 @@
+/* Body ko center aur attractive banaya */
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Heading style */
+  h1 {
+    font-size: 2.5em;
+    color: #ff4500;
+    margin-top: 20px;
+  }
+  
+  /* Instruction style */
+  p {
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  /* Emoji input container */
+  .emoji-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  /* Player input box style */
+  .player {
+    margin: 0 15px;
+  }
+  
+  input {
+    font-size: 1.2em;
+    padding: 10px;
+    border: 2px solid #333;
+    border-radius: 5px;
+  }
+  
+  /* Battle button style */
+  #battle-btn {
+    font-size: 1.5em;
+    background-color: #ff4500;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  
+  #battle-btn:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Result container style */
+  #result-container {
+    margin-top: 30px;
+  }
+  
+  #result-text {
+    font-size: 1.8em;
+    color: #4caf50;
+  }
+  
