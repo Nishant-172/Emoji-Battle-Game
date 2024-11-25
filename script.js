@@ -37,3 +37,4 @@ battleBtn.addEventListener("click", () => {
   document.body.style.backgroundColor =
     player1Score > player2Score ? "#c8e6c9" : "#ffcdd2"; // Player 1 wins to green, else red
 });
+// js code ends here
