@@ -1,1 +1,40 @@
 <!-- cODE STARTS HERE FOR Emoji Battle Game -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emoji Battle Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Game Heading -->
+  <h1>💥 Emoji Battle Arena 💥</h1>
+  <!-- Instruction Section -->
+  <p>Choose your fighter emoji and click "Battle" to see who wins! 🎮</p>
+  
+  <!-- Player Selection Section -->
+  <div class="emoji-container">
+    <!-- Player 1 -->
+    <div class="player">
+      <h2>Player 1</h2>
+      <input type="text" id="player1-emoji" placeholder="Enter Emoji (e.g., 😎)">
+    </div>
+    <!-- Player 2 -->
+    <div class="player">
+      <h2>Player 2</h2>
+      <input type="text" id="player2-emoji" placeholder="Enter Emoji (e.g., 🐉)">
+    </div>
+  </div>
+  
+  <!-- Battle Button -->
+  <button id="battle-btn">🔥 Start Battle 🔥</button>
+
+  <!-- Battle Result Section -->
+  <div id="result-container">
+    <h2 id="result-text">⚔️ Let the battle begin! ⚔️</h2>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
